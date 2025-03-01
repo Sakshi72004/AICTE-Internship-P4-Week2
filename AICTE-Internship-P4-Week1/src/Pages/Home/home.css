@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(135deg, #ff7f50, #ff6347); /* Vibrant orange gradient */
+  color: #ffffff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 100px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.filterRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff5722; /* Deep orange background */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.filterRow .text-white {
+  color: #fff8e1 !important; /* Soft white text */
+}
+
+.filterRow select, .filterRow button {
+  background-color: #ff9800 !important; /* Bright orange buttons */
+  color: #ffffff !important;
+  border: 1px solid #ff5722;
+}
+
+.iconBtnBox {
+  display: flex;
+  gap: 10px;
+}
+
+.iconActive {
+  color: #ff5722 !important; /* Highlight color */
+}
+
+.iconDeactive {
+  color: #fff8e1 !important;
+}
+
+.addNew, .mobileBtn {
+  background-color: #ff9800 !important; /* Bright orange button */
+  border: none;
+  color: white;
+}
+
+.addNew:hover, .mobileBtn:hover {
+  background-color: #f57c00 !important; /* Darker orange on hover */
+}
+
+.modal-content {
+  background-color: #263238 !important;
+  color: #e0e0e0;
+}
+
+.modal-header, .modal-footer {
+  border-color: #ff5722; /* Orange border for modal */
+}
+
+.form-control, .form-select {
+  background-color: #37474f !important;
+  color: white !important;
+  border: 1px solid #ff9800;
+}
+
+.form-control::placeholder {
+  color: #b0bec5 !important;
+}
+
+.button-primary {
+  background-color: #ff5722 !important; /* Deep orange button */
+  border: none;
+}
+
+.button-primary:hover {
+  background-color: #f57c00 !important; /* Darker orange on hover */
+}
+
+.date label {
+  color: #e0e0e0;
+}
+
+.containerBtn button {
+  background-color: #ff5722 !important; /* Deep orange button */
+  border: none;
+  color: white;
+}
+
+.containerBtn button:hover {
+  background-color: #f57c00 !important; /* Darker orange on hover */
+}
+
+.addNew, .mobileBtn, .button-primary {
+  background-color: #ff5722; /* Deep orange */
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #ff5722;
+}
+
+.addNew:hover, .mobileBtn:hover, .button-primary:hover {
+  background-color: #f57c00; /* Darker orange on hover */
+  box-shadow: 0 0 20px #ff5722;
+}
+
+.modal-content, .filterRow, .containerBtn button {
+  box-shadow: 0px 4px 15px rgba(255, 87, 34, 0.2); /* Soft orange glow */
+}
+
+.iconBtnBox svg {
+  transition: all 0.3s ease-in-out;
+}
+
+.iconBtnBox svg:hover {
+  transform: scale(1.1);
+  color: #ff5722 !important; /* Orange hover effect */
+  text-shadow: 0 0 8px #ff5722;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.container, .modal-content {
+  animation: fadeIn 0.5s ease-in-out;
+}
+body {
+  background: linear-gradient(135deg, #e07b3e, #a0b09f); /* Earthy orange and sage green */
+  color: #ffffff;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 90px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  background-color: #e07b3e; /* Earthy orange button */
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a0b09f; /* Sage green */
+}
+th{
+  color: #e0e0e0;
+}
